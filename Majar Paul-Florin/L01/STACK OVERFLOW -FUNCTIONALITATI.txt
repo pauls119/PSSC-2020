@@ -1,0 +1,20 @@
+-> posibilitatea de ati gasi un job
+-> poti forma/face parte un/dintr-un grup privat de intrebari si raspunsuri(in care sa fie permis accesul doar anumite persoane)
+-> ai acces la raspunsurile mai multor persoane, intrebarile devenind publice in varianta basic
+-> exista facilitatea de buisness si developing (for buisness or developers)
+-> poate fi varianta pentru echipa, in cadrul companiei daca e folosita de companie, si articolele, intrebarile pot fi vazute chiar si in timp ce se compun "See arcticle in action"
+-> apasand meniul avem 3 variante de ales in cadrul PUBLIC 
+           a) Stack Overflow    -> e o varianta globala in care toate intrebarile sunt afisate din mai multe domenii in ordinea in care au fost puse
+	   b) Tags 		-> a doua varianta din public in care intrebarile sunt diferentiate in functie  de categoria din care fac parte, de exemplu C#, Java, JavaScript
+				-> acest lucru faciliteaza accesul mai rapid la informatia dorita
+	   c) Users             -> a 3-a varianta in care putem cauta utilizatorii , sau observa utilizatorii cu cele mai multe raspunsuri 
+-> mai avem si partea de Find A JOB
+	a) Jobs -> unde putem vedea toate job-urile disponibile pe forum din cadrul firmelor participante
+	b) Companies -> putem vedea toate firmele participante care sunt intersate sa angajeze persoane sau folosesc platforma
+		     -> daca esti ineresat poti intra in contact cu firma direct de la ei de pe site
+-> mai ai optiunea la Developer story sa iti creezi cont si sa fii mai aproape de forumul global "free" al stack overflow
+-> exista mai multe optiuni in partea de jos a paginii in printre care una interesanta "STACK EXCHANGE NETWORK" unde sunt prezente si alte domenii de interes nu doar de programare 
+-> optiune de a-ti  calcula potentialul salariul in functie de cunostiintele acumulate si de anii de experienta, dar in functie de studii
+-> legata cu Blog, Facebook, Twitter, LinkedIn, Instagram, Github sa fie accesata de pe platformele de socializare si sa te poti autentifica cu acele conturi(Facebook, Github, Google)
+ 
+ 	 
