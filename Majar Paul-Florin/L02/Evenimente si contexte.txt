@@ -1,0 +1,56 @@
+Context: Punerea intrebarii
+
+    evenimente:	->loggare pe site si accesare unui anumit domeniu de activitate daca faci parte din clasa buissnes(companie sau un grup privat, cu acces restrans in aceste cazuri ) sau partea de developing 
+		->crearea intrebari intr-o categorie anume
+		->plasarea intrebarii pe platforma
+		->stergerea intrebarii
+		->editarea intrebarii
+		->parasirea site-ului
+
+Context: Raspunsul la intrebare
+
+    evenimente: ->loggare, accesarea domeniului
+		->accesarea intrebarii din partea mai multor persoane ce pot sa vizualizeze rubrica intrebarii tale sau sa vada toate intrebarile unde apare si aceea adresata de tine
+		->adaugarea unui raspuns sau mai multor raspunsuri
+		->stergerea raspunsului 
+		->editarea raspunsului
+		->evaluarea/notarea intrebarii din partea utilizatorilor	
+		->parasirea site-ului
+
+
+
+Context: Evaluarea intrebarii 
+
+
+    evenimente: ->loggare, accesarea domeniului
+		->accesarea intrebarii din partea celui ce a pus acea intrebare sau a altor  utilizatori
+		->vizualizarea raspunsului   
+		->adaugarea unei evaluari acelui raspuns sau raspunsurilor
+		->vizualizarea celui mai bun raspuns
+		->obtinerea informatiei de catre doritori/ cei interesati 
+		->parasirea site-ului
+
+
+Context: Gasirea unui job
+  
+
+    evenimente: ->loggare in platforma
+		->selectare find a job si a categoriei dorite
+		->vizualizarea ofertelor
+		->selectarea companiei de interes
+		->vizualizarea informatiilor despre companie si job
+		->depunerea unei aplicatii de job	
+		->retragerea aplicatiei
+		->editarea aplicatiei
+		->lasarea unei evaluari anuntului/ofertei
+		->parasirea site-ului
+
+Context: Calcularea salariului posibil
+
+    evenimente: ->loggare in platforma
+		->selectarea tag-ului de salariu
+		->introducerea datelor despre tine
+		->vizualizarea salariului potential	
+		->parasirea site-ului
+
+ 		
