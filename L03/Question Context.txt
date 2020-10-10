@@ -1,0 +1,38 @@
+Bounded context: "Ask a question on stack Overflow"
+     
+     Workflow: "Create question"
+
+		Triggered by: "Ask Questions" event
+		Input: "Questions form" (Title, Body, Tags)
+		Other inputs(Link to "Review your question")
+		Output: "New Question Published" event
+		Side effects: Message recived that user`s question has been Published
+
+
+Workflows documentation
+
+-> Workflow: “Create question”
+	-Input: “Questions form”
+	-Output: “New Question Published” event or Invalid user profile form
+
+//step1
+   Do validate Questions form
+     
+   If form is invalid then
+	reject the question
+//step2 
+    return "New Question Published" event
+
+
+Substep: "validate Question form"
+	Input: "Unvalidate question form"
+	Output: "Validate question form"
+	dependencies: Title validator, Body validator, Tags validator
+	
+ Validate the question title
+ Validate the question body
+ validate the question tags
+ If all validations passed then
+ 	return validate question form
+ Else
+        return Validation error
