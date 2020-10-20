@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
+    <Import Project="$(NuGetPackageRoot)csharp.choices.generators\1.1.0\build\CSharp.Choices.Generators.targets" Condition="Exists('$(NuGetPackageRoot)csharp.choices.generators\1.1.0\build\CSharp.Choices.Generators.targets')" />
+    <Import Project="$(NuGetPackageRoot)codegeneration.roslyn.tool\0.7.63\build\CodeGeneration.Roslyn.Tool.targets" Condition="Exists('$(NuGetPackageRoot)codegeneration.roslyn.tool\0.7.63\build\CodeGeneration.Roslyn.Tool.targets')" />
+  </ImportGroup>
+</Project>
