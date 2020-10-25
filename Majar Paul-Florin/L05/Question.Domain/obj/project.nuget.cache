@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "whEJeTdpwfcp+4hm1DRN28AU/Xh3ejTTbTsiU1HqaJGYkELeKs9c0Drd2QdiZJqhftMak2Y+X2JdLfUZY61+uA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paulm\\Desktop\\MAJAR\\PSSC-2020-master\\Majar Paul-Florin\\L04\\Question.Domain\\Question.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulm\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\paulm\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\paulm\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
