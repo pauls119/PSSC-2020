@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Test.App\\Test.App.csproj": {}
+  },
+  "projects": {
+    "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Primitives.IO\\Primitives.IO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Primitives.IO\\Primitives.IO.csproj",
+        "projectName": "Primitives.IO",
+        "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Primitives.IO\\Primitives.IO.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Primitives.IO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "OpenTracing": {
+              "target": "Package",
+              "version": "[0.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Profile.Domain\\Profile.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Profile.Domain\\Profile.Domain.csproj",
+        "projectName": "Profile.Domain",
+        "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Profile.Domain\\Profile.Domain.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Profile.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Primitives.IO\\Primitives.IO.csproj": {
+                "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Primitives.IO\\Primitives.IO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "CSharp.Choices": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Question.Domain\\Question.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Question.Domain\\Question.Domain.csproj",
+        "projectName": "Question.Domain",
+        "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Question.Domain\\Question.Domain.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Question.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Reply.Domain\\Reply.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Reply.Domain\\Reply.Domain.csproj",
+        "projectName": "Reply.Domain",
+        "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Reply.Domain\\Reply.Domain.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Reply.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Test.App\\Test.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Test.App\\Test.App.csproj",
+        "projectName": "Test.App",
+        "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Test.App\\Test.App.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Test.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Profile.Domain\\Profile.Domain.csproj": {
+                "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Profile.Domain\\Profile.Domain.csproj"
+              },
+              "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Question.Domain\\Question.Domain.csproj": {
+                "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Question.Domain\\Question.Domain.csproj"
+              },
+              "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Reply.Domain\\Reply.Domain.csproj": {
+                "projectPath": "C:\\Facultate\\PSSC\\PSSC-2020\\Majar Paul-Florin\\L06\\Reply.Domain\\Reply.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+C:\Users\paulm\Desktop\PSSC-2020-masterlig\MAJAR\PSSC-2020-master\Majar Paul-Florin\L05\Reply.Domain\bin\Debug\netcoreapp3.1\Reply.Domain.exe
+C:\Users\paulm\Desktop\PSSC-2020-masterlig\MAJAR\PSSC-2020-master\Majar Paul-Florin\L05\Reply.Domain\obj\Debug\netcoreapp3.1\Reply.Domain.csprojAssemblyReference.cache
+C:\Users\paulm\Desktop\PSSC-2020-masterlig\MAJAR\PSSC-2020-master\Majar Paul-Florin\L05\Reply.Domain\obj\Debug\netcoreapp3.1\Reply.Domain.AssemblyInfoInputs.cache
+C:\Users\paulm\Desktop\PSSC-2020-masterlig\MAJAR\PSSC-2020-master\Majar Paul-Florin\L05\Reply.Domain\obj\Debug\netcoreapp3.1\Reply.Domain.AssemblyInfo.cs
