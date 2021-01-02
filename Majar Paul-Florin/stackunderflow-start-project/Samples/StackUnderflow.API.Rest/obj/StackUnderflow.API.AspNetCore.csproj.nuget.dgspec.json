@@ -1,0 +1,746 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.API.Rest\\StackUnderflow.API.AspNetCore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainImplementation\\GrainImplementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainImplementation\\GrainImplementation.csproj",
+        "projectName": "GrainImplementation",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainImplementation\\GrainImplementation.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainImplementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\GrainInterfaces.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\GrainInterfaces.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\StackUnderflow.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\StackUnderflow.Domain.Core.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\StackUnderflow.EF.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\StackUnderflow.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\GrainInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\GrainInterfaces.csproj",
+        "projectName": "GrainInterfaces",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\GrainInterfaces.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj",
+        "projectName": "Access.Primitives.EFCore",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\Access.Primitives.Extensions.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\Access.Primitives.Extensions.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\Access.Primitives.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\Access.Primitives.Extensions.csproj",
+        "projectName": "Access.Primitives.Extensions",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\Access.Primitives.Extensions.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Remote.Linq": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj",
+        "projectName": "Access.Primitives.IO.Extensions",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj",
+        "projectName": "Access.Primitives.IO",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "OpenTracing": {
+              "target": "Package",
+              "version": "[0.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.API.Rest\\StackUnderflow.API.AspNetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.API.Rest\\StackUnderflow.API.AspNetCore.csproj",
+        "projectName": "StackUnderflow.API.AspNetCore",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.API.Rest\\StackUnderflow.API.AspNetCore.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.API.Rest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainImplementation\\GrainImplementation.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainImplementation\\GrainImplementation.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\GrainInterfaces.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\GrainInterfaces\\GrainInterfaces.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\StackUnderflow.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\StackUnderflow.Domain.Core.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\StackUnderflow.EF.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\StackUnderflow.EF.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Jaeger": {
+              "target": "Package",
+              "version": "[0.3.7, )"
+            },
+            "Microsoft.CrmSdk.Workflow": {
+              "target": "Package",
+              "version": "[9.0.2.29, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "OpenTracing.Contrib.NetCore": {
+              "target": "Package",
+              "version": "[0.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\StackUnderflow.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\StackUnderflow.Domain.Core.csproj",
+        "projectName": "StackUnderflow.Domain.Core",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\StackUnderflow.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "CSharp.Choices": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\StackUnderflow.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\StackUnderflow.EF.csproj",
+        "projectName": "StackUnderflow.EF",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\StackUnderflow.EF.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.EF.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.EFCore\\Access.Primitives.EFCore.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj",
+        "projectName": "StackUnderflow.DatabaseModel",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\StackUnderflow.DatabaseModel.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Samples\\StackUnderflow.Schema\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\Access.Primitives.Extensions.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.Extensions\\Access.Primitives.Extensions.csproj"
+              },
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
