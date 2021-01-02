@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Access.Primitives.IO.Extensions.xUnit\\Access.Primitives.IO.Extensions.xUnit.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Access.Primitives.IO.Extensions.xUnit\\Access.Primitives.IO.Extensions.xUnit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Access.Primitives.IO.Extensions.xUnit\\Access.Primitives.IO.Extensions.xUnit.csproj",
+        "projectName": "Access.Primitives.IO.Extensions.xUnit",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Access.Primitives.IO.Extensions.xUnit\\Access.Primitives.IO.Extensions.xUnit.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Access.Primitives.IO.Extensions.xUnit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj",
+        "projectName": "Access.Primitives.IO.Extensions",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO.Extensions\\Access.Primitives.IO.Extensions.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+                "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj",
+        "projectName": "Access.Primitives.IO",
+        "projectPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO\\Access.Primitives.IO.csproj",
+        "packagesPath": "C:\\Users\\paulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulm\\Desktop\\PSSC-2020-masterlig\\stackunderflow-start-project-main\\stackunderflow-start-project-main\\Primitives\\Access.Primitives.IO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "OpenTracing": {
+              "target": "Package",
+              "version": "[0.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
