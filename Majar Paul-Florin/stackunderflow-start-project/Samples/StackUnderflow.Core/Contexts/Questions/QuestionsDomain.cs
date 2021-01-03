@@ -28,10 +28,7 @@ namespace StackUnderflow.Domain.Core.Contexts.FrontOffice
 
         public static object AcknoledgeOwnerQuest(User ownerQuest, string answer) => 
             NewPort<AckOwnerQuestCmd, IAckOwnerQuestResult>(new AckOwnerQuestCmd(ownerQuest, answer));
-
-        public static object AcknoledgeOwnerReply(User replyOwner, Tenant tenant, int questionId, string answer) =>
-            NewPort<AckOwnerReplyCmd, IAckOwnerReplyResult>(new AckOwnerReplyCmd(replyOwner, tenant, questionId, answer));
-
+        
         public static Port<ICreateQuestionResult> CreateQuestion(CreateQuestionCmd cmd) =>
            NewPort<CreateQuestionCmd, ICreateQuestionResult>(new CreateQuestionCmd(cmd.Title, cmd.Body, cmd.Tag, cmd.TenantId, cmd.UserId, cmd.TenantUser)); //string title, string body, string tag, int tenantId, Guid userId, User user
 
